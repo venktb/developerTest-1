@@ -1,7 +1,7 @@
 <?php
-   class infoblock() 
+   class elementList() 
    {
-		function elementList ($esort, $efilter, $eFields)
+		function getList ($esort, $efilter, $eFields)
 		{
 			$cache_id = md5(serialize($arParams));
 			$cache_dir = "/tagged_getlist";
